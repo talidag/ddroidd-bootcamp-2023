@@ -18,6 +18,7 @@ const ApplicationForm = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [countryIndex, setCountryIndex] = useState("");
   const [errorMessage, setErrorMessage] = useState({});
+  const [isLoadingState, setIsLoadingState] = useState(true);
 
   const [apiCountryError, setApiCountryError] = useState("");
   const [apiStateError, setApiStateError] = useState("");
@@ -53,6 +54,7 @@ const ApplicationForm = () => {
         })
         .then((data) => {
           setStates(data.data.states);
+          setIsLoadingState(false);
         })
         .catch((error) => setApiStateError(error));
     }
@@ -71,10 +73,6 @@ const ApplicationForm = () => {
       [name]: value,
     }));
   };
-
-  useEffect(() => {
-    localStorage.setItem("formData", JSON.stringify(formData));
-  }, [formData]);
 
   const handleInputClick = (e) => {
     const { name } = e.target;
@@ -257,13 +255,20 @@ const ApplicationForm = () => {
                 </div>
                 <div className="dropbox__state">
                   <label htmlFor="state">State</label>
+
                   <select
                     name="state"
                     id="state"
                     value={formData["state"]}
                     onChange={handleInputChange}
                   >
-                    <option defaultValue="state">State</option>
+                    {isLoadingState ? (
+                      <option defaultValue="state">
+                        Please select a country first
+                      </option>
+                    ) : (
+                      <option value="loading-state">State</option>
+                    )}
 
                     {apiStateError === "" && states.length > 0 ? (
                       states.map((state, index) => (
@@ -291,7 +296,14 @@ const ApplicationForm = () => {
                       border: errorMessage.city ? "1px solid red" : "",
                     }}
                   >
-                    <option defaultValue="city">City</option>
+                    {isLoadingState ? (
+                      <option defaultValue="city">
+                        Please select a country first
+                      </option>
+                    ) : (
+                      <option defaultValue="city">City</option>
+                    )}
+
                     {countryIndex ? (
                       apiData[countryIndex].cities.map((city, index) => (
                         <option value={city} key={index}>
