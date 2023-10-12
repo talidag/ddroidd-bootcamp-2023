@@ -156,8 +156,8 @@ const ApplicationForm = () => {
     <section className="application">
       <div className="application__wrapper">
         <h2>Application Form</h2>
-        <h3>Contact Information</h3>
         <form className="application__form">
+          <h3 className="application__wrapper__contact">Contact Information</h3>
           <div className="application__contact">
             <InputBox
               id="firstName"

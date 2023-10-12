@@ -1,9 +1,11 @@
 import "./Congrats.scss";
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { Context } from "../../../App";
 
 const Congrats = () => {
   const [formData, setFormData] = useContext(Context);
+  const navigate = useNavigate();
 
   const {
     firstName,
@@ -16,6 +18,10 @@ const Congrats = () => {
     state,
     city,
   } = formData;
+
+  const handleClick = () => {
+    navigate("/form");
+  };
   return (
     <section className="congrats">
       <div className="congrats__wrapper">
@@ -36,7 +42,10 @@ const Congrats = () => {
             </div>
           </div>
         ) : (
-          <h4>Please make sure to fill out a form first!</h4>
+          <div className="congrats__redirect">
+            <h4>Please make sure to fill out a form first!</h4>
+            <button onClick={handleClick}>Join Us</button>
+          </div>
         )}
       </div>
     </section>

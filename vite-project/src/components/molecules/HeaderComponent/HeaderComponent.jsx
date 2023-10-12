@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 const MainHeader = () => {
   const navigate = useNavigate();
 
-  // To conditionally render the Join Us in the Header button based on the page
+  // To conditionally render the Join Us button in the Header based on the page
   const location = useLocation().pathname;
 
   const handleClick = () => {

@@ -7,8 +7,11 @@
 
     &__wrapper {
         background-color: $light-grey;
-        padding-left: 29.6rem;
-        padding-right: 26.2rem;
+        height: 85.1rem;
+        width: 137.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         & h2 {
             font-size: $hero-heading;
@@ -16,28 +19,24 @@
             padding-top: 7.7rem;
             padding-bottom: 6.3rem;
         }
-    }
 
-    &__form {
-        padding-top: 1.8rem;
-        padding-bottom: 29.6rem;
-        display: flex;
-        flex-direction: column;
+        &__contact {
+            padding-bottom: 1.8rem;
+        }
     }
 
     &__contact {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 28px;
-        grid-row-gap: 18px;
+        grid-column-gap: 2.8rem;
+        grid-row-gap: 1.8rem;
         padding-bottom: 1.8rem;
     }
 
     &__address {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
         padding-top: 0.6rem;
         gap: 1.8rem;
     }
