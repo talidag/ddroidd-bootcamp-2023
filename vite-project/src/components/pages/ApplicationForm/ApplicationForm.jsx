@@ -72,6 +72,10 @@ const ApplicationForm = () => {
     }));
   };
 
+  useEffect(() => {
+    localStorage.setItem("formData", JSON.stringify(formData));
+  }, [formData]);
+
   const handleInputClick = (e) => {
     const { name } = e.target;
     setFormData((prevData) => ({
@@ -93,8 +97,6 @@ const ApplicationForm = () => {
     }
   };
   const handleSubmit = (e) => {
-    console.log(errorMessage);
-
     setErrorMessage({});
     e.preventDefault();
     const {
@@ -149,7 +151,6 @@ const ApplicationForm = () => {
         city: "City is required",
       }));
     }
-    console.log(errorMessage);
   };
 
   return (
