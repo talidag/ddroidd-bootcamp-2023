@@ -1,0 +1,21 @@
+@import "../../../scss/variables";
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-size: $label-text;
+
+    & input {
+        width: 40.3rem;
+        height: 2.4rem;
+        color: $primary;
+        font-size: inherit;
+        padding-left: 0.8rem;
+        border: 1px solid $primary;
+        box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        &::placeholder {
+            color: $placeholder-grey;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "../../../scss/variables";
+
+footer {
+    background-color: $dark-grey;
+
+    & p {
+        font-size: $footer-text;
+        color: $white;
+    }
+}
+
+.footer__wrapper {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3rem 0;
+
+    &:hover {
+        .footer__cookie {
+            transition: all 1s ease;
+            transform: rotate(180deg);
+        }
+    }
+}

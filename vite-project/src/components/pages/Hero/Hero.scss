@@ -1,0 +1,30 @@
+@import "../../../scss//variables";
+
+.hero {
+    display: flex;
+    justify-content: center;
+
+    &__wrapper {
+        background-color: $light-grey;
+        padding-top: 17.4rem;
+    }
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__languages {
+        padding-left: 1.2rem;
+    }
+
+    &__page {
+        padding-right: 1.2rem;
+    }
+
+    &__button {
+        padding: 16.5rem 56.7rem 13.2rem 56.8rem;
+    }
+}

@@ -1,0 +1,24 @@
+@import "./scss/reset";
+@import "./scss//variables";
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: $secondary;
+    padding: $btn-padding;
+    color: $black;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5rem;
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: $dark-grey;
+        color: $white;
+    }
+}

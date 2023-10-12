@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="901" height="116" viewBox="0 0 901 116">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="109" height="96" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="119" height="97" transform="translate(-0.462)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="104" height="99" transform="translate(0.133)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="104" height="99" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Const" transform="translate(1 1)">
+    <text id="const-2" data-name="const" transform="translate(0 75)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="80" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">const</tspan></text>
+    <text id="_" data-name="}" transform="translate(786 74)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="80" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">}</tspan></text>
+    <g id="Logos" transform="translate(288)">
+      <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0 3)">
+        <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+          <g id="html5-2" transform="translate(18.723)">
+            <path id="Path_15" data-name="Path 15" d="M21.234,89.272,14.723,19.849H86.277L79.759,89.261l-29.3,7.721Z" transform="translate(-14.723 -0.983)"/>
+            <path id="Path_16" data-name="Path 16" d="M50.5,91.376l23.678-6.239,5.571-59.316H50.5Z" transform="translate(-14.723 -1.278)"/>
+            <g id="Group_4" data-name="Group 4" transform="translate(13.315 33.057)">
+              <path id="Path_17" data-name="Path 17" d="M50.5,52.012H38.646l-.819-8.719H50.5V34.779H28.038l.214,2.284,2.2,23.464H50.5Zm0,22.113-.039.01-9.977-2.561-.638-6.791H30.854l1.255,13.369,18.35,4.842.041-.011Z" transform="translate(-28.038 -34.779)" fill="#ebebeb"/>
+            </g>
+            <path id="Path_18" data-name="Path 18" d="M21.38,0h4.552V4.275H30.1V0h4.552V12.946H30.1V8.611H25.933v4.335H21.38V0ZM40.636,4.293H36.628V0H49.2V4.293H45.188v8.653H40.636ZM51.193,0h4.747l2.92,4.549L61.776,0h4.749V12.946H61.991V6.529l-3.132,4.6h-.078l-3.134-4.6v6.417H51.193V0Zm17.6,0h4.554V8.667h6.4v4.279H68.79Z" transform="translate(-14.723)"/>
+            <g id="Group_5" data-name="Group 5" transform="translate(35.747 33.057)">
+              <path id="Path_19" data-name="Path 19" d="M50.469,52.012v8.514H61.5L60.46,71.569l-9.991,2.563v8.858l18.364-4.838.135-1.439L71.073,54.3l.219-2.286H50.469Zm0-17.234v8.515H72.107l.18-1.914.408-4.316.214-2.284Z" transform="translate(-50.469 -34.779)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(104.462 3)" clip-path="url(#clip-path-2)">
+        <g id="layer1" transform="translate(24.051 0.226)">
+          <g id="g3013" transform="translate(0 0)">
+            <path id="polygon2989" d="M95.855,32.819,89.34,102.791l-29.285,7.784-29.2-7.773L24.343,32.819Z" transform="translate(-24.343 -13.801)"/>
+            <path id="polygon2991" d="M107.163,102.488l5.567-59.794H83.5v66.084Z" transform="translate(-47.744 -17.954)"/>
+            <path id="polygon2993" d="M49.027,87.485l.8,8.583H69.863V87.485Z" transform="translate(-34.107 -36.789)" fill="#ebebeb"/>
+            <path id="polygon2995" d="M68.808,57.506H46.359l.814,8.583H68.808Z" transform="translate(-33.052 -24.182)" fill="#ebebeb"/>
+            <path id="polygon2997" d="M70.65,128.049v-8.93l-.039.01-9.97-2.581L60,109.7H51.016l1.254,13.477,18.339,4.881Z" transform="translate(-34.894 -46.132)" fill="#ebebeb"/>
+            <path id="path2999" d="M52.188,0H63.031V4.347H56.722V8.694h6.309v4.347H52.188Z" transform="translate(-35.358)"/>
+            <path id="path3001" d="M73.715,0H84.558V3.78H78.249v.756h6.309v8.694H73.715V9.262h6.309V8.505H73.715Z" transform="translate(-43.873)"/>
+            <path id="path3003" d="M95.242,0h10.843V3.78H99.777v.756h6.309v8.694H95.242V9.262h6.309V8.505H95.242Z" transform="translate(-52.389)"/>
+            <path id="polygon3005" d="M94.473,83.461,93.434,94.593l-9.985,2.584v8.93l18.353-4.877.135-1.45,2.1-22.6.218-2.3,1.616-17.372H83.449v8.583H96.064l-.815,8.789h-11.8v8.583Z" transform="translate(-47.724 -24.182)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(240.867 1)" clip-path="url(#clip-path-3)">
+        <g id="Unofficial_JavaScript_logo_2" transform="translate(-0.289 0.157)">
+          <path id="Path_22" data-name="Path 22" d="M0,0H103.835V98.843H0Z"/>
+          <path id="Path_21" data-name="Path 21" d="M71.111,81.831c2.092,3.251,4.813,5.64,9.625,5.64,4.043,0,6.626-1.924,6.626-4.581,0-3.185-2.654-4.313-7.1-6.166l-2.439-1C70.778,72.872,66.1,69.295,66.1,61.733c0-6.966,5.576-12.269,14.29-12.269,6.2,0,10.664,2.055,13.878,7.437l-7.6,4.644c-1.673-2.855-3.478-3.98-6.28-3.98-2.858,0-4.669,1.726-4.669,3.98,0,2.786,1.813,3.915,6,5.64l2.439.995c8.29,3.384,12.971,6.834,12.971,14.591,0,8.362-6.9,12.944-16.169,12.944-9.062,0-14.916-4.111-17.781-9.5Zm-34.468.8c1.533,2.589,2.927,4.777,6.28,4.777,3.206,0,5.228-1.194,5.228-5.836V49.994h9.757V81.7c0,9.618-5.924,13.995-14.57,13.995C35.525,95.7,31,91.848,28.7,87.213Z" transform="translate(-1.36 -4.609)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="_2" data-name="," transform="translate(334 92)" fill="#003c55" font-size="96" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">,</tspan></text>
+      <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(391 0)" clip-path="url(#clip-path-4)">
+        <g id="react-1" transform="translate(0.685 0.652)">
+          <path id="Path_23" data-name="Path 23" d="M0,0H103.315V98.348H0Z" fill="#222"/>
+          <path id="Path_27" data-name="Path 27" d="M8.64,0a8.44,8.44,0,0,1,8.64,8.224,8.44,8.44,0,0,1-8.64,8.224A8.44,8.44,0,0,1,0,8.224,8.44,8.44,0,0,1,8.64,0Z" transform="translate(42.938 40.89)" fill="#fff"/>
+          <path id="Path_24" data-name="Path 24" d="M51.153,31.291c11.6,0,22.373,1.585,30.5,4.245,9.787,3.207,15.806,8.069,15.806,12.472,0,4.588-6.378,9.754-16.888,13.067-7.946,2.506-18.4,3.816-29.413,3.816-11.289,0-21.976-1.228-30.013-3.843C10.973,57.741,4.849,52.509,4.849,48.009c0-4.368,5.747-9.192,15.4-12.393,8.154-2.7,19.195-4.324,30.907-4.324Z" transform="translate(0.424 1.103)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3.8"/>
+          <path id="Path_25" data-name="Path 25" d="M34.36,40.456c5.793-9.564,12.62-17.658,19.1-23.026,7.809-6.468,15.241-9,19.246-6.8,4.174,2.291,5.69,10.132,3.455,20.457-1.69,7.806-5.722,17.082-11.223,26.162-5.639,9.309-12.1,17.508-18.49,22.83C38.36,86.809,30.537,89.244,26.442,87c-3.974-2.182-5.493-9.33-3.589-18.889.277-1.39,1.133-4.637,1.133-4.637S29.513,48.451,34.36,40.456Z" transform="translate(1.929 0.347)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3.8"/>
+          <path id="Path_26" data-name="Path 26" d="M34.372,57.263c-5.81-9.556-9.767-19.226-11.418-27.252-1.987-9.67-.582-17.065,3.42-19.27,4.171-2.3,12.063.367,20.343,7.365,6.261,5.292,12.688,13.249,18.2,22.322,5.656,9.3,9.9,18.721,11.543,26.648,2.087,10.034.4,17.7-3.695,19.954C68.8,89.219,61.535,86.9,53.787,80.557,47.243,75.2,40.239,66.911,34.372,57.263Z" transform="translate(1.931 0.35)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3.8"/>
+        </g>
+      </g>
+      <text id="_3" data-name="," transform="translate(183 90)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="96" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">,</tspan></text>
+      <text id="_4" data-name="," transform="translate(73 90)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="96" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">,</tspan></text>
+    </g>
+    <text id="_5" data-name="=" transform="translate(850 75)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="80" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">=</tspan></text>
+    <text id="_6" data-name="{" transform="translate(246 74)" fill="#003c55" stroke="#003c55" stroke-width="1" font-size="80" font-family="DroidSansMono, Droid Sans Mono"><tspan x="0" y="0">{</tspan></text>
+  </g>
+</svg>

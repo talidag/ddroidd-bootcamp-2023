@@ -1,0 +1,33 @@
+@import "../../../scss/variables";
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: $primary;
+    height: 11.5rem;
+
+    & button {
+        margin-right: 2.1rem;
+    }
+}
+
+.header {
+    &__logo {
+        margin-left: 3.6rem;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            transform: rotate(-7deg);
+            border-bottom: 10px double $secondary;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+    &__heading {
+        font-size: $header-text;
+        color: $white;
+        font-weight: $regular;
+        padding-left: 41.1rem;
+        padding-right: 39.4rem;
+    }
+}

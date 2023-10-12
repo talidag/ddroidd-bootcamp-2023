@@ -1,0 +1,19 @@
+@import "../../../scss/variables";
+
+.congrats {
+    height: 85.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__wrapper {
+        background-color: $light-grey;
+        padding: 32.7rem 35rem 39.3rem 38rem;
+    }
+
+    & h2 {
+        font-size: $header-text;
+        color: $primary;
+        text-align: center;
+    }
+}

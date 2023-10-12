@@ -1,0 +1,104 @@
+@import "../../../scss/variables";
+
+.application {
+    display: flex;
+    justify-content: center;
+    color: $primary;
+
+    &__wrapper {
+        background-color: $light-grey;
+        padding-left: 29.6rem;
+        padding-right: 26.2rem;
+
+        & h2 {
+            font-size: $hero-heading;
+            text-align: center;
+            padding-top: 7.7rem;
+            padding-bottom: 6.3rem;
+        }
+    }
+
+    &__form {
+        padding-top: 1.8rem;
+        padding-bottom: 29.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 28px;
+        grid-row-gap: 18px;
+        padding-bottom: 1.8rem;
+    }
+
+    &__address {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 0.6rem;
+        gap: 1.8rem;
+    }
+
+    & h3 {
+        font-size: $hero-p;
+    }
+
+    &__error__btn {
+        position: relative;
+    }
+
+    &__error {
+        position: absolute;
+        top: 0rem;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 8.2rem;
+        right: 0;
+    }
+
+    &__error {
+        color: $error;
+        font-size: $error-text;
+        padding-top: 3.5rem;
+
+        & ul {
+            padding-top: 0.6rem;
+            list-style-position: inside;
+        }
+    }
+}
+
+.dropbox {
+    display: flex;
+    gap: 7.2rem;
+    padding-top: 1.8rem;
+    font-size: $label-text;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & label {
+        font-weight: $semibold;
+    }
+
+    & select {
+        width: 23.3rem;
+        height: 2.4rem;
+        border: 1px solid $primary;
+        background: $white;
+        box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: $primary;
+        font-size: $label-text;
+
+        &:disabled {
+            color: $placeholder-grey;
+        }
+    }
+}
