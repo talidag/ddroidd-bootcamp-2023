@@ -8,12 +8,40 @@
 
     &__wrapper {
         background-color: $light-grey;
-        padding: 32.7rem 35rem 39.3rem 38rem;
+
+        &__text {
+            padding-top: 10.8rem;
+            padding-bottom: 24.5rem;
+        }
     }
 
     & h2 {
         font-size: $header-text;
         color: $primary;
         text-align: center;
+
+        padding-left: 38rem;
+        padding-right: 35rem;
+    }
+
+    & p {
+        color: $black;
+        font-weight: $bold;
+        font-size: $hero-p;
+    }
+
+    &__title {
+        padding-top: 7.4rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    &__form {
+        padding-left: 55rem;
+    }
+
+    & h4 {
+        font-size: $hero-p;
+        background-color: $white;
     }
 }

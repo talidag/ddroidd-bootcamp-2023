@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ApplicationForm.scss";
 import InputBox from "../../molecules/InputBox/InputBox";
+import { useContext } from "react";
+import { Context } from "../../../App";
 
 const API_CITIES = "https://countriesnow.space/api/v0.1/countries";
 const API_STATES = "https://countriesnow.space/api/v0.1/countries/states";
@@ -9,17 +11,8 @@ const phonePattern = /^\+407\d{8}$/;
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const ApplicationForm = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    phoneNr: "",
-    emailAddress: "",
-    addressLine1: "",
-    addressLine2: "",
-    country: "",
-    state: "",
-    city: "",
-  });
+  const [formData, setFormData] = useContext(Context);
+
   const [apiData, setApiData] = useState([]);
   const [states, setStates] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -58,10 +51,18 @@ const ApplicationForm = () => {
           }
           return response.json();
         })
-        .then((data) => setStates(data.data.states))
+        .then((data) => {
+          setStates(data.data.states);
+        })
         .catch((error) => setApiStateError(error));
     }
   }, [countryIndex]);
+
+  useEffect(() => {
+    if (Object.keys(errorMessage).length === 0 && formData.firstName !== "") {
+      navigate("/congrats");
+    }
+  }, [errorMessage]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -92,6 +93,8 @@ const ApplicationForm = () => {
     }
   };
   const handleSubmit = (e) => {
+    console.log(errorMessage);
+
     setErrorMessage({});
     e.preventDefault();
     const {
@@ -146,10 +149,7 @@ const ApplicationForm = () => {
         city: "City is required",
       }));
     }
-
-    if (Object.keys(errorMessage).length === 0 && formData.firstName !== "") {
-      navigate("/congrats");
-    }
+    console.log(errorMessage);
   };
 
   return (
